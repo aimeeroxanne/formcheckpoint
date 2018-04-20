@@ -8,11 +8,11 @@
     <form>
       <h2>Aimee's Form Checkpoint</h2>
         <label for="email">Email</label>
-        <input type="email" name="email" placeholder="Email Address">
+        <input type="email" name="email" placeholder="Email Address" required>
         <label for="password">Password</label>
-        <input type="text" name="password" placeholder="Create a password">
+        <input type="password" name="password" placeholder="Create a password" required>
         <label for="username">Github Username</label>
-        <input type="text" name="username" placeholder="Github username">
+        <input type="text" name="username" placeholder="Github username" required>
         <br>
         <fieldset>
           <label for="membership">Select a membership type</label><br>
@@ -26,6 +26,7 @@
           <label for="membership-type">Enterprise</label><br>
 
         </fieldset>
+        <input type="checkbox" name="rememberme">Remember me</label><br>
 
         <button type="submit">Press Go!</button>
 
